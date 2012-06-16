@@ -1,7 +1,7 @@
 django-timeintervaller
 =======================
 
-A simple asynchronous task-scheduler for Django.
+A simple asynchronous task-scheduler for ``Django``. For more functionality, I recommend the use ``Celery``!
 
 The order of entry in the pool is important! Tasks is running step-by-step.
 If your task is running longer than `interval`, then the next start will be immediately after the first.
