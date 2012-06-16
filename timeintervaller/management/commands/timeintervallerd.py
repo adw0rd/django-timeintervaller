@@ -1,7 +1,7 @@
 # coding: utf-8
 """A simple asynchronous task-scheduler for Django.
 
-The order of entry in the POOL is important! Tasks is shedulled step-by-step.
+The order of entry in the pool is important! Tasks is running step-by-step.
 If your task is running longer than `interval`, then the next start will be immediately after the first.
 
 Each task is starting in new thread.
