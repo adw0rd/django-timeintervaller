@@ -9,8 +9,12 @@ If your task is running longer than `interval`, then the next start will be imme
 Each task is starting in new thread.
 
 Running
-  ./manage.py timeintervallerd --daemon
+---------
+::
 
+    ./manage.py timeintervallerd --daemon
 
 Settings
-  Please, see ``settings.py``
+----------
+
+Please, see ``settings.py``
